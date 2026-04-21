@@ -51,7 +51,7 @@
     }
 
     .tabs-pill {
-        @apply size-12 items-center justify-center rounded-full bg-transparent;
+        @apply inline-flex items-center justify-center h-12 w-16 px-4 py-2 rounded-full bg-transparent
     }
 
     .tabs-active {
@@ -59,7 +59,7 @@
     }
 
     .tabs-glyph {
-        @apply size-6;
+        @apply size-7;
     }
 
     .home-header {
